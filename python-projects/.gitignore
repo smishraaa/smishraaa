@@ -1,0 +1,41 @@
+# mac folder meta data
+.DS_Store
+.git/*
+.github/*
+
+# VS Code
+.vscode/*
+
+# Python virtual environment
+**/venv
+**/env
+
+# pyenv
+*.python-version
+
+# pycache files
+**/*.pyc
+
+
+# files with data
+**/data/*
+**/*.csv.gz
+**/*.tar.gz
+
+# R files
+**/.Rproj.user
+**/*.Rproj
+**/.Rhistory
+
+# Pycharm
+**/.idea
+
+# Credentials and secrets
+**/.aws/credentials
+**/credentials
+**/.ssh/*
+**/*.pub
+**/rsa*
+
+#logs
+**/*.logs
